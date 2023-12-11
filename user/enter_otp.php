@@ -48,20 +48,20 @@
 
   <main id="main" style="padding-top:100px;">
   
-    <div class="login-container" >
-      <h2>User Login</h2>
-      <form action="user_login_handler.php" method="post">
-          <label for="username">Username:</label>
-          <input type="text" id="username" name="username" required>
+  <div class="login-container">
+    <h2>Enter OTP</h2>
+    <form action="reset_password.php" method="post">
+        <label for="otp">Enter the OTP sent to your email:</label>
+        <input type="text" id="otp" name="otp" required>
 
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required>
+        <label for="new_password">Enter your new password:</label>
+        <input type="password" id="new_password" name="new_password" required>
+    
 
-          <button type="submit">Login</button>
-      </form>
-      <button style="margin-top:5px; width: 360px;"><a href="user_registration1.php" style="color:white;">Register</a></button>
-      <button style="margin-top:5px; width: 360px;"><a href="forgot_password.php" style="color:white;">Forgot Password?</a></button>
-  </div>
+        <input type="hidden" name="email" value="<?php echo $_GET['email']; ?>">
+        <button type="submit">Verify OTP</button>
+    </form>
+ </div>
 
 
 
