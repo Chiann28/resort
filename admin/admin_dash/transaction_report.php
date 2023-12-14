@@ -216,7 +216,7 @@
 					<div class="row align-items-center">
 						<div class="col">
 							<div class="mt-5">
-								<h4 class="card-title float-left mt-2">Guest Report</h4>
+								<h4 class="card-title float-left mt-2">Transaction Report</h4>
                                 <button onclick="printTable()" style="margin-left:20px; margin-top:7px; background-color:gray; color:white;">Print Report</button>
                             </div>
 						</div>

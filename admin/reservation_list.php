@@ -8,16 +8,6 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
     exit();
 }
 
-
-<<<<<<< HEAD
-=======
-// Replace with your database connection details
-// $servername = "localhost";
-// $dbusername = "root";
-// $dbpassword = "";
-// $dbname = "hotel_management";
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
-
 require_once 'config.php';
 
 // Create a database connection
@@ -28,9 +18,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-<<<<<<< HEAD
-
-=======
 // Query the database to fetch data
 // $sql = "SELECT reservations.*, rooms.room_id, rooms.room_number, rooms.description, users.name, users.email
 //         FROM reservations
@@ -43,7 +30,7 @@ if ($conn->connect_error) {
 //         FROM rooms
 //         LEFT JOIN reservations ON rooms.room_id = reservations.room_id
 //         LEFT JOIN users ON reservations.user_id = users.user_id";
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
+
 
 $sql = "SELECT reservations.*, rooms.room_id, rooms.room_number, rooms.description, users.name, users.email
         FROM reservations

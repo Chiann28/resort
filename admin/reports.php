@@ -240,9 +240,6 @@ $servicesResult = $conn->query($servicesSQL);
                         </div>
             </div>
 
-<<<<<<< HEAD
-
-=======
 <form method="POST" action="" id="filterForm" style="margin-left:20px;">
   <label for="selectedMonth">Select:</label>
   <select name="selectedMonth" id="selectedMonth" onchange="document.getElementById('filterForm').submit();" style="width:250px;">
@@ -264,7 +261,7 @@ $servicesResult = $conn->query($servicesSQL);
  
     </form>
    
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
+
     <table style="margin: 20px; width:98%;">
       <thead>
         <tr>
@@ -283,10 +280,7 @@ $servicesResult = $conn->query($servicesSQL);
         </tr>
       </thead>
         <?php
-<<<<<<< HEAD
-=======
-        
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
+
 
         function getStatusClass($status) {
             switch ($status) {

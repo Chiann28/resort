@@ -89,11 +89,8 @@
 
         if($validationchecker == 0)
         {
-<<<<<<< HEAD
-          $sql = "SELECT * FROM reservations WHERE user_id = '$user_id' AND status = 'Pending' AND reference_number IS NULL";
-=======
           $sql = "SELECT * FROM reservations WHERE user_id = '$user_id' AND status IN('Pending', 'Rescheduled') AND reference_number IS NULL";
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
+
           $result = $conn->query($sql);
           if ($result->num_rows > 0) 
           {
@@ -236,11 +233,8 @@
             $sql = "SELECT reservations.*, rooms.room_number, rooms.price
                     FROM reservations
                     INNER JOIN rooms ON reservations.room_id = rooms.room_id
-<<<<<<< HEAD
-                    WHERE user_id = '{$_SESSION['user_id']}' AND reservations.status = 'Pending'  AND reservations.reference_number IS NULL";         
-=======
                     WHERE user_id = '{$_SESSION['user_id']}' AND reservations.status IN ('Pending', 'Rescheduled')  AND reservations.reference_number IS NULL";         
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
+
             $result = $conn->query($sql);
             $servicesQuery = "SELECT user_id, services_number, services_description, services_price, reservation_id, status, reference_number
                                 FROM reservations
@@ -275,11 +269,8 @@
                 switch ($status) {
                     case 'Pending':
                         return 'pending';
-<<<<<<< HEAD
-=======
                     case 'Rescheduled':
                         return 'pending';
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
                     case 'Approved':
                         return 'approved';
                     case 'Rejected':
@@ -337,11 +328,10 @@
                             }
                             echo "<div class='cart-item'><b>Total Price:  ".number_format($total_price + $totalAmenitiesPrice,2). " Php</b></div>";
                             echo "<hr>";
-<<<<<<< HEAD
-=======
+
+
                             echo "<p style='color:red; font-size:12px;'>*Cancellation must be made 1 day before the reservation. If you choose to reschedule you can view your transactions
                             under 'My transactions' tab on your profile.";
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
                     
                         $reservationPrice = $total_price;
                         $totalPrice += $reservationPrice + $totalAmenitiesPrice;
@@ -361,14 +351,7 @@
                             {
                                 echo "<button type='button' class='btn btn-primary' data-toggle='modal' data-target='#myModal" . $row['reservation_id'] . "'>Add Amenities</button><br>";
                             }
-<<<<<<< HEAD
-                            echo "<button type='submit' name='delete_reservation' class='btn btn-danger'>Delete</button>";
-                            echo "</form>";
-                            echo "</div>";  // Add the button to trigger the modal
 
-                            ?>
-
-=======
 
                             echo "<button type='button' class='btn btn-info' data-toggle='modal' data-target='#rescheduleModal" . $row['reservation_id'] . "'>Reschedule</button><br>";
 
@@ -410,8 +393,6 @@
 
                             ?>
 
-
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
                             <div class='modal fade' id='myModal<?php echo $row['reservation_id']; ?>' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
                                 <div class='modal-dialog' role='document' style="max-width:100%; width:50%;">
                                     <div class='modal-content'>
@@ -557,11 +538,7 @@
                 
                 echo "</div>";          
             }
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
             ?>
         <div class="row justify-content-center">
             <div class="col-lg-3 ">
