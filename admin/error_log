@@ -1,0 +1,502 @@
+[11-Oct-2023 12:43:28 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[11-Oct-2023 18:51:37 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[12-Oct-2023 05:29:03 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[12-Oct-2023 05:36:49 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[12-Oct-2023 05:39:23 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[12-Oct-2023 16:52:26 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[12-Oct-2023 16:52:40 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[12-Oct-2023 16:56:08 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[12-Oct-2023 17:31:34 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[13-Oct-2023 02:00:53 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[13-Oct-2023 06:03:56 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 00:09:33 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 10:18:51 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 30
+[15-Oct-2023 10:18:51 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 31
+[15-Oct-2023 10:18:56 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 30
+[15-Oct-2023 10:18:56 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 31
+[15-Oct-2023 10:18:58 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 30
+[15-Oct-2023 10:18:58 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 31
+[15-Oct-2023 10:19:02 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 30
+[15-Oct-2023 10:19:02 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 31
+[15-Oct-2023 10:19:21 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 30
+[15-Oct-2023 10:19:21 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 31
+[15-Oct-2023 10:30:58 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 10:31:08 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 10:31:20 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 10:34:12 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 10:56:28 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 30
+[15-Oct-2023 10:56:28 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 31
+[15-Oct-2023 11:35:55 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 30
+[15-Oct-2023 11:35:55 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 31
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:43:47 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:00 America/New_York] PHP Warning:  Undefined variable $delete_sql in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php on line 24
+[15-Oct-2023 11:44:00 America/New_York] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php:24
+Stack trace:
+#0 /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php(24): mysqli->query()
+#1 {main}
+  thrown in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php on line 24
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:05 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:50 America/New_York] PHP Parse error:  syntax error, unexpected double-quoted string ">Delete</a></td>", expecting "," or ";" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:53 America/New_York] PHP Parse error:  syntax error, unexpected double-quoted string ">Delete</a></td>", expecting "," or ";" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:54 America/New_York] PHP Parse error:  syntax error, unexpected double-quoted string ">Delete</a></td>", expecting "," or ";" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:44:54 America/New_York] PHP Parse error:  syntax error, unexpected double-quoted string ">Delete</a></td>", expecting "," or ";" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:46:28 America/New_York] PHP Parse error:  syntax error, unexpected single-quoted string ">Delete</a></td>";", expecting "," or ";" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 176
+[15-Oct-2023 11:46:30 America/New_York] PHP Parse error:  syntax error, unexpected single-quoted string ">Delete</a></td>";", expecting "," or ";" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 176
+[15-Oct-2023 11:47:31 America/New_York] PHP Parse error:  syntax error, unexpected double-quoted string "'>Delete</a></td>", expecting "," or ";" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:48:46 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Undefined variable $servicesRow in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:49:13 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 171
+[15-Oct-2023 11:50:21 America/New_York] PHP Warning:  Undefined variable $delete_sql in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php on line 24
+[15-Oct-2023 11:50:21 America/New_York] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php:24
+Stack trace:
+#0 /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php(24): mysqli->query()
+#1 {main}
+  thrown in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php on line 24
+[15-Oct-2023 11:50:31 America/New_York] PHP Warning:  Undefined variable $delete_sql in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php on line 24
+[15-Oct-2023 11:50:31 America/New_York] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php:24
+Stack trace:
+#0 /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php(24): mysqli->query()
+#1 {main}
+  thrown in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php on line 24
+[15-Oct-2023 11:52:40 America/New_York] PHP Warning:  Undefined variable $delete_sql in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php on line 24
+[15-Oct-2023 11:52:40 America/New_York] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php:24
+Stack trace:
+#0 /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php(24): mysqli->query()
+#1 {main}
+  thrown in /home/parapoia/kamantiguebeachresort.com/admin/delete_reservation.php on line 24
+[15-Oct-2023 19:45:37 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 19:46:33 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:37:19 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:50:12 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:51:10 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:51:25 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:51:37 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:51:51 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:51:55 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:51:58 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:52:00 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[15-Oct-2023 20:52:27 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[18-Oct-2023 07:55:53 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 51
+[24-Oct-2023 03:41:02 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 30
+[24-Oct-2023 03:41:02 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 31
+[16-Nov-2023 15:13:00 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 52
+[17-Nov-2023 00:00:16 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 30
+[17-Nov-2023 00:00:16 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/admin/edit_reservation_status.php on line 31
+[17-Nov-2023 05:11:52 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 52
+[17-Nov-2023 05:15:33 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 52
+[17-Nov-2023 06:21:45 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/admin/reservation_list.php on line 52
+[23-Nov-2023 21:48:57 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/parapoia/kamantiguebeachresort.com/home/admin/admin_dashboard.php on line 178
+[23-Nov-2023 21:49:41 America/New_York] PHP Warning:  Attempt to read property "num_rows" on bool in /home/parapoia/kamantiguebeachresort.com/home/admin/login_handler.php on line 59
+[23-Nov-2023 21:55:49 America/New_York] PHP Warning:  Attempt to read property "num_rows" on bool in /home/parapoia/kamantiguebeachresort.com/home/admin/login_handler.php on line 59
+[23-Nov-2023 21:59:40 America/New_York] PHP Warning:  Attempt to read property "num_rows" on bool in /home/parapoia/kamantiguebeachresort.com/home/admin/login_handler.php on line 59
+[23-Nov-2023 22:00:50 America/New_York] PHP Warning:  Attempt to read property "num_rows" on bool in /home/parapoia/kamantiguebeachresort.com/home/admin/login_handler.php on line 59
+[23-Nov-2023 22:01:43 America/New_York] PHP Warning:  Undefined array key "admin_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/login_handler.php on line 66
+[23-Nov-2023 22:04:22 America/New_York] PHP Warning:  Undefined array key "admin_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/login_handler.php on line 66
+[23-Nov-2023 22:05:31 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[23-Nov-2023 22:05:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:05:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:05:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:32 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:05:32 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:05:32 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:32 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:32 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:05:32 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:05:50 America/New_York] PHP Warning:  Undefined array key "admin_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/login_handler.php on line 66
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:05:56 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:07:08 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:07:13 America/New_York] PHP Warning:  Attempt to read property "num_rows" on bool in /home/parapoia/kamantiguebeachresort.com/home/admin/audit_report.php on line 197
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:07:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:07:24 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:10:18 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:13:31 America/New_York] PHP Warning:  Undefined array key "admin_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/login_handler.php on line 66
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:14:07 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:14:21 America/New_York] PHP Warning:  Undefined array key "admin_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/login_handler.php on line 66
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:18:35 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:18:52 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:18:54 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:19:04 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:19:30 America/New_York] PHP Warning:  Attempt to read property "num_rows" on bool in /home/parapoia/kamantiguebeachresort.com/home/admin/audit_report.php on line 197
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:19:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:19:32 America/New_York] PHP Warning:  Attempt to read property "num_rows" on bool in /home/parapoia/kamantiguebeachresort.com/home/admin/audit_report.php on line 197
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:25:20 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:25:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:25:25 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:25:40 America/New_York] PHP Warning:  Attempt to read property "num_rows" on bool in /home/parapoia/kamantiguebeachresort.com/home/admin/audit_report.php on line 197
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 264
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 266
+[23-Nov-2023 22:25:41 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 267
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 270
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 283
+[23-Nov-2023 22:26:05 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 284
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:35:22 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:35:31 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 276
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "payable_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 278
+[23-Nov-2023 22:35:40 America/New_York] PHP Warning:  Undefined array key "paid_amount" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 279
+[23-Nov-2023 22:49:59 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[23-Nov-2023 22:50:01 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[23-Nov-2023 22:50:04 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[23-Nov-2023 22:50:06 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 00:56:30 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 00:56:37 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 00:58:22 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 00:58:26 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 07:18:14 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 07:18:50 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 07:19:18 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 10:43:49 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 10:43:50 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 10:43:53 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 10:44:52 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 10:44:53 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 10:45:20 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 11:02:21 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 11:02:24 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 11:02:27 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 11:02:30 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 11:02:35 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 11:02:39 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 11:30:58 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 12:05:38 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 12:06:47 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[24-Nov-2023 12:16:29 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 13:10:46 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 13:11:38 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 13:12:04 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 19:47:18 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/home/admin/edit_reservation_status.php on line 59
+[24-Nov-2023 19:47:18 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/home/admin/edit_reservation_status.php on line 61
+[24-Nov-2023 20:02:26 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:02:49 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:02:51 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:02:52 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:02:55 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:03:49 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:03:49 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:08:00 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:08:04 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:11:35 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:12:41 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:12:41 America/New_York] PHP Warning:  Undefined variable $totalPaidAmount in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 269
+[24-Nov-2023 20:13:01 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 20:13:01 America/New_York] PHP Warning:  Undefined variable $totalPaidAmount in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 269
+[24-Nov-2023 23:22:16 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:23:59 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:25:13 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:35:18 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:35:48 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/home/admin/edit_reservation_status.php on line 59
+[24-Nov-2023 23:35:48 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/home/admin/edit_reservation_status.php on line 61
+[24-Nov-2023 23:35:49 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:37:04 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:38:58 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:40:59 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:41:04 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:41:33 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:41:36 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:41:42 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:42:37 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:45:32 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:46:03 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:48:04 America/New_York] PHP Warning:  Undefined array key "email" in /home/parapoia/kamantiguebeachresort.com/home/admin/edit_reservation_status.php on line 59
+[24-Nov-2023 23:48:04 America/New_York] PHP Warning:  Undefined array key "name" in /home/parapoia/kamantiguebeachresort.com/home/admin/edit_reservation_status.php on line 61
+[24-Nov-2023 23:48:04 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:50:44 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:50:50 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[24-Nov-2023 23:51:11 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:51:19 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:51:22 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:51:25 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:51:28 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[24-Nov-2023 23:52:02 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:52:08 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:52:20 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:52:23 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[24-Nov-2023 23:52:31 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:52:48 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:52:49 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[24-Nov-2023 23:53:04 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:53:39 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[24-Nov-2023 23:54:42 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:54:51 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[24-Nov-2023 23:59:10 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:59:13 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[24-Nov-2023 23:59:17 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[25-Nov-2023 00:00:18 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[25-Nov-2023 00:05:32 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[26-Nov-2023 03:39:52 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[27-Nov-2023 02:53:56 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[27-Nov-2023 02:53:59 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[27-Nov-2023 02:54:08 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[27-Nov-2023 02:54:18 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[27-Nov-2023 02:54:39 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[27-Nov-2023 02:58:48 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[28-Nov-2023 21:37:12 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[28-Nov-2023 21:38:36 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[28-Nov-2023 21:38:40 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[28-Nov-2023 21:38:42 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[28-Nov-2023 21:39:06 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
+[28-Nov-2023 21:39:28 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reservation_list.php on line 58
+[28-Nov-2023 21:39:39 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/reports.php on line 58
+[28-Nov-2023 21:40:39 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/parapoia/kamantiguebeachresort.com/home/admin/transaction_report.php on line 58
