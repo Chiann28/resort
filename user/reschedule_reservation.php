@@ -16,10 +16,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Update the reservations table with new dates
     $updateSql = "UPDATE reservations SET check_in_date = '$new_check_in_date', check_out_date = '$new_check_out_date', status = '$status' WHERE reservation_id = $reservation_id";
-    $conn->query($updateSql);
 
-    // Redirect or show success message
-    header("Location: user_reservations.php");
-    exit();
+ 
+    
+    if ($conn->query($updateSql) === TRUE) {
+        // Success
+        <script> 
+        console.log(successful);
+        </script>
+        echo 'Reservation successfully rescheduled.';
+        // Redirect or show success message
+        header("Location: my_reservations.php");
+        exit();
+    } else {
+        // Error handling
+        $error_message = "Error updating reservation: " . $conn->error;
+        // Handle the error as needed, for example, display an error message to the user.
+    }
 }
 ?>

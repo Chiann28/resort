@@ -116,6 +116,8 @@
             switch ($status) {
                 case 'Pending':
                     return 'pending';
+                case 'Rescheduled':
+                    return 'pending';
                 case 'Approved':
                     return 'approved';
                 case 'Rejected':
@@ -167,11 +169,10 @@
             if($totalAmenitiesPrice != '' && $totalAmenitiesPrice != '0')
             {
                 echo "<button type='button' style='background-color:white; color:black; border: 1px solid black;' class='btn btn-primary' data-toggle='modal' data-target='#myModal" . $row['reservation_id'] . "'>View Availed Amenities</button><br>";
-            
+            }
             ?>
-
-
-                            <div class='modal fade' id='myModal<?php echo $row['reservation_id']; ?>' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+      
+                 <div class='modal fade' id='myModal<?php echo $row['reservation_id']; ?>' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
                                 <div class='modal-dialog' role='document' style="max-width:100%; width:50%;">
                                     <div class='modal-content'>
                                         <div class='modal-header'>
@@ -253,8 +254,42 @@
                             </div>
 
             <?php
-                }
+                
+
+                echo "<button type='button' class='btn btn-info' data-toggle='modal' data-target='#rescheduleModal" . $row['reservation_id'] . "'>Reschedule</button><br>";
                 echo "</div>"; // Close the cart div
+
+                // Reschedule modal
+                echo "<div class='modal fade' id='rescheduleModal{$row['reservation_id']}' tabindex='-1' role='dialog' aria-labelledby='rescheduleModalLabel' aria-hidden='true'>";
+                echo "<div class='modal-dialog' role='document'>";
+                echo "<div class='modal-content'>";
+                echo "<div class='modal-header'>";
+                echo "<h5 class='modal-title' id='rescheduleModalLabel'>Reschedule Reservation</h5>";
+                echo "<button type='button' class='close' data-dismiss='modal' aria-label='Close'>";
+                echo "<span aria-hidden='true'>&times;</span>";
+                echo "</button>";
+                echo "</div>";
+                echo "<div class='modal-body'>";
+                echo "<form action='reschedule_reservation.php' method='post'>";
+                echo "<input type='hidden' name='reservation_id' value='{$row['reservation_id']}' />";
+                echo "<div class='form-group'>";
+                echo "<label for='new_check_in_date'>New Check-in Date:</label>";
+                echo "<input type='date' class='form-control' id='new_check_in_date' name='new_check_in_date' required />";
+                echo "</div>";
+                echo "<div class='form-group'>";
+                echo "<label for='new_check_out_date'>New Check-out Date:</label>";
+                echo "<input type='date' class='form-control' id='new_check_out_date' name='new_check_out_date' required />";
+                echo "</div>";
+                echo "<button type='submit' class='btn btn-primary'>Reschedule</button>";
+                echo "</form>";
+                echo "</div>";
+                echo "<div class='modal-footer'>";
+                echo "<button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>";
+                echo "</div>";
+                echo "</div>";
+                echo "</div>";
+                echo "</div>";
+
             }
             
             echo "</div>";

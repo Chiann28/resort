@@ -348,7 +348,7 @@
                                 echo "<button type='button' class='btn btn-primary' data-toggle='modal' data-target='#myModal" . $row['reservation_id'] . "'>Add Amenities</button><br>";
                             }
 
-                            echo "<button type='button' class='btn btn-info' data-toggle='modal' data-target='#rescheduleModal" . $row['reservation_id'] . "'>Reschedule</button><br>";
+                            // echo "<button type='button' class='btn btn-info' data-toggle='modal' data-target='#rescheduleModal" . $row['reservation_id'] . "'>Reschedule</button><br>";
 
                             echo "<button type='submit' name='delete_reservation' class='btn btn-danger'>Delete</button>";
                             echo "</form>";
