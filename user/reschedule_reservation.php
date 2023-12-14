@@ -1,5 +1,8 @@
 <?php
 // reschedule_reservation.php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 require_once 'config.php';
 $error_message = "";
 $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
@@ -21,17 +24,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     if ($conn->query($updateSql) === TRUE) {
         // Success
-        <script> 
-        console.log(successful);
-        </script>
         echo 'Reservation successfully rescheduled.';
         // Redirect or show success message
-        header("Location: my_reservations.php");
+        header("Location: available_rooms.php");
         exit();
     } else {
         // Error handling
         $error_message = "Error updating reservation: " . $conn->error;
-        // Handle the error as needed, for example, display an error message to the user.
+        // Handle the error as needed, for example, display an error message to the user
+        header("Location: available_rooms.php");.
     }
 }
 ?>

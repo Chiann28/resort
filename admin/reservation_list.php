@@ -8,13 +8,6 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
     exit();
 }
 
-
-// Replace with your database connection details
-// $servername = "localhost";
-// $dbusername = "root";
-// $dbpassword = "";
-// $dbname = "hotel_management";
-
 require_once 'config.php';
 
 // Create a database connection
@@ -37,6 +30,7 @@ if ($conn->connect_error) {
 //         FROM rooms
 //         LEFT JOIN reservations ON rooms.room_id = reservations.room_id
 //         LEFT JOIN users ON reservations.user_id = users.user_id";
+
 
 $sql = "SELECT reservations.*, rooms.room_id, rooms.room_number, rooms.description, users.name, users.email
         FROM reservations

@@ -68,7 +68,6 @@ $servicesSQL .= " ORDER BY reservations.services_number DESC";
 
 $servicesResult = $conn->query($servicesSQL);
 
-
 ?>
 
 
@@ -262,6 +261,7 @@ $servicesResult = $conn->query($servicesSQL);
  
     </form>
    
+
     <table style="margin: 20px; width:98%;">
       <thead>
         <tr>
@@ -280,7 +280,7 @@ $servicesResult = $conn->query($servicesSQL);
         </tr>
       </thead>
         <?php
-        
+
 
         function getStatusClass($status) {
             switch ($status) {

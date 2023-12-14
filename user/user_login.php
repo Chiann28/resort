@@ -37,7 +37,11 @@
         }
     </script>
 
-
+<style>
+  .forgot{
+    margin-top: 20px;
+  }
+</style>
 </head>
 
 <body>
@@ -60,7 +64,9 @@
           <button type="submit">Login</button>
       </form>
       <button style="margin-top:5px; width: 360px;"><a href="user_registration1.php" style="color:white;">Register</a></button>
-      <button style="margin-top:5px; width: 360px;"><a href="forgot_password.php" style="color:white;">Forgot Password?</a></button>
+      <div class="forgot">
+      <a href="forgot_password.php" style="color: #007BFF; text-decoration: none; font-size: 16px;">Forgot Password?</a>
+      </div>
   </div>
 
 

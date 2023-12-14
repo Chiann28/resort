@@ -125,12 +125,15 @@
     }
 }
 
+<<<<<<< HEAD
+=======
 .filter-transaction{
   margin-top:10px;
   text-align: center;
   margin-left: 1400px;
 }
 
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
     </style>
   </head>
   <body>
@@ -247,6 +250,10 @@
             <a href="room_report.php" class="btn btn-primary">Room Report</a>
             <a href="transaction_report.php" class="btn btn-primary">Transactions Report</a>
             <a href="audit_report.php" class="btn btn-primary">Audit Report</a>
+<<<<<<< HEAD
+          </div>
+        </div>
+=======
             <br>
             <br>
 
@@ -271,6 +278,7 @@
                     <option value="Rejected">Rejected</option>
                 </select>
             </div>
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
         <table style="margin: 20px; width:98%;">
           <tr>
             <!-- <th>Reservation ID</th> -->
@@ -399,13 +407,45 @@
             echo "</div>";
             echo "<div class='modal-body'>";
 
+<<<<<<< HEAD
+            echo "<center><h2>Kamantigue Official Receipt</h2></center><br><br><br><br><br>";
+=======
             echo "<p style='font-size:20px;'><strong>Kamantigue Beach and Diving Resort</strong></p><br>";
             echo "<p style='font-size:15px;'><strong>Billing Statement</strong></p>";
             echo "<p style='font-size:15px;'><strong>Customer Information:</strong></p>";
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
 
 
             echo "<div style='display: flex; justify-content: space-between;'>";
             echo "<div style='flex: 1;'>";
+<<<<<<< HEAD
+            echo "<p><strong>Guest Name:</strong> {$row['name']}</p>";
+            echo "<p><strong>Guest Email:</strong> {$row['email']}</p>";
+            echo "</div>";
+            echo "<div style='flex: 1; text-align: right;'>";
+            echo "<p><strong>Check-in Date:</strong> {$row['check_in_date']}</p>";
+            echo "<p><strong>Check-out Date:</strong> {$row['check_out_date']}</p>";
+            echo "</div>";
+            echo "</div><hr>";
+
+
+            echo "<div style='display: flex; justify-content: space-between;'>";
+            echo "<div style='flex: 1;'>";
+            echo "<p><strong>Reservation ID:</strong> {$row['reservation_id']}</p>";
+            echo "<p><strong>Room ID:</strong> {$row['room_id']}</p>";
+            echo "</div>";
+            echo "<div style='flex: 1; text-align: right;'>";
+            echo "<p><strong>Room: </strong> {$row['room_number']}</p>";
+            echo "<p><strong></strong> {$row['description']}</p>";
+            echo "<p><strong>Adults:</strong> {$row['adults']} </strong> | <strong> Children: {$row['children']} </strong></p>";
+
+            echo "</div>";
+            echo "</div><hr>";
+
+            echo "<div style='display: flex; justify-content: space-between;'>";
+            echo "<div style='flex: 1;'>";
+            echo "<div style='text-align: left;'><strong>List of Amenities</strong><br>";
+=======
             echo "<p><strong>Name:</strong> {$row['name']}</p>";
             echo "<p><strong>Email:</strong> {$row['email']}</p>";
             
@@ -424,6 +464,7 @@
             echo "<p>Room:  {$row['room_number']}</p>";
             echo "<p>Adults {$row['adults']}  |  Children: {$row['children']} </p>";
             echo "<p><strong>Extras</strong><br></p>";
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
             $sqlAMENITY = "SELECT description, price, services_number FROM services WHERE type='Amenities'";
             $resultamenity = $conn->query($sqlAMENITY);
             if ($resultamenity->num_rows > 0) {
@@ -441,7 +482,11 @@
                     }
                     foreach ($amenities_dict as $amenity_name => $quantity) {
                         if (!in_array($amenity_name, $displayedAmenities)) {
+<<<<<<< HEAD
+                            echo "<span>{$amenity_name} - " . number_format($rowamenity['price'], 2) . " Php (x{$quantity})</span><br>";
+=======
                             echo "<span>{$amenity_name} </span><br>"; 
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
                             $displayedAmenities[] = $amenity_name;
                         }
                     }
@@ -449,6 +494,17 @@
             } else {
                 echo "<p>No Amenities Included.</p>";
             }
+<<<<<<< HEAD
+            echo "</div>";
+            echo "</div>";
+            echo "<div style='flex: 1; text-align: right;'>";
+            echo "<p><strong>Room Price:</strong> " . number_format($row['room_price'], 2) . " Php / Night</p>";
+            echo "<p><strong>Total Amount:</strong> " . number_format($row['payable_amount'], 2) . " Php</p>";
+            echo "<p><strong>Paid Amount:</strong> " . number_format($row['paid_amount'], 2) . " Php </p>";
+            echo "<p><strong>Balance:</strong> " . number_format($row['payable_amount'] - $row['paid_amount'], 2) . " Php</p>";
+            echo "</div>";
+            echo "</div>";
+=======
             echo "<br><p><strong>Total Amount:</strong> </p>";
             echo "</div>";
             echo "<div style='flex: 1; text-align: center;'>";
@@ -501,6 +557,7 @@
             echo "<p>0977 102 4509</p>";
             echo "</div>";
             
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
 
             echo "</div>";
             echo "<div class='modal-footer'>";
@@ -590,7 +647,11 @@ echo "</script>";
             echo "</div>";
             echo "<div class='modal-body'>";
 
+<<<<<<< HEAD
+            echo "<center><h2>Kamantigue Official Receipt</h2></center><br><br><br><br><br>";
+=======
             echo "<h2>Kamantigue Beach and Diving Resort</h2><br><br><br><br><br>";
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
 
             echo "<div style='display: flex; justify-content: space-between;'>";
             echo "<div style='flex: 1;'>";
@@ -640,8 +701,11 @@ echo "}";
 echo "</script>";
 
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
             // Add more columns as needed
             echo "</tr>";
             }
@@ -695,6 +759,8 @@ echo "</script>";
                   elements[i].style.textAlign = textAlign;
               }
           }
+<<<<<<< HEAD
+=======
 
           function applyPaymentFilter() {
         var filterValue = document.getElementById("paymentFilter").value;
@@ -710,6 +776,7 @@ echo "</script>";
             }
         }
     }
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
         </script>
         <!-- JavaScript to handle the edit popup -->
         <script>
@@ -782,8 +849,11 @@ echo "</script>";
               addPopup.style.display = "none";
           }
         </script>
+<<<<<<< HEAD
+=======
 
 </script>
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
         <!-- <a href="logout.php">Logout</a> -->
         <!-- Vendor JS Files -->
         <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

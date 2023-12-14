@@ -269,6 +269,7 @@
                 echo "<span aria-hidden='true'>&times;</span>";
                 echo "</button>";
                 echo "</div>";
+
                 echo "<div class='modal-body'>";
                 echo "<form action='reschedule_reservation.php' method='post'>";
                 echo "<input type='hidden' name='reservation_id' value='{$row['reservation_id']}' />";
@@ -283,6 +284,8 @@
                 echo "<button type='submit' class='btn btn-primary'>Reschedule</button>";
                 echo "</form>";
                 echo "</div>";
+
+                
                 echo "<div class='modal-footer'>";
                 echo "<button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>";
                 echo "</div>";
