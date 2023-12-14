@@ -28,6 +28,12 @@
       <li class="nav-item">
         <a class="nav-link" href="contact1.php">Contact</a>
       </li>
+<<<<<<< HEAD
+=======
+      <li class="nav-item">
+        <a class="nav-link" href="news.php">News</a>
+      </li>
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="user/user_login.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile</a>
         <div class="dropdown-menu">

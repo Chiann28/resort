@@ -125,6 +125,15 @@
     }
 }
 
+<<<<<<< HEAD
+=======
+.filter-transaction{
+  margin-top:10px;
+  text-align: center;
+  margin-left: 1400px;
+}
+
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
     </style>
   </head>
   <body>
@@ -241,8 +250,35 @@
             <a href="room_report.php" class="btn btn-primary">Room Report</a>
             <a href="transaction_report.php" class="btn btn-primary">Transactions Report</a>
             <a href="audit_report.php" class="btn btn-primary">Audit Report</a>
+<<<<<<< HEAD
           </div>
         </div>
+=======
+            <br>
+            <br>
+
+            <form method="POST" class="mb-3" action="transaction_report.php" >
+                    <div class="input-group">
+                        <input type="text" name="search_username" class="form-control" placeholder="Search by Username" style="width: 200px; height: 40px; margin-right: 10px;">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary">Search</button>
+                            <button type="button" class="btn btn-secondary" onclick="window.location.href='transaction_report.php'">Show All</button>
+                        </div>
+                    </div>
+                </form>
+          </div>
+          
+        </div>
+        <div class = "filter-transaction">
+                <label for="paymentFilter">Filter by Payment:</label>
+                <select id="paymentFilter" onchange="applyPaymentFilter()">
+                    <option value="all">All Transactions</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                </select>
+            </div>
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
         <table style="margin: 20px; width:98%;">
           <tr>
             <!-- <th>Reservation ID</th> -->
@@ -371,11 +407,18 @@
             echo "</div>";
             echo "<div class='modal-body'>";
 
+<<<<<<< HEAD
             echo "<center><h2>Kamantigue Official Receipt</h2></center><br><br><br><br><br>";
+=======
+            echo "<p style='font-size:20px;'><strong>Kamantigue Beach and Diving Resort</strong></p><br>";
+            echo "<p style='font-size:15px;'><strong>Billing Statement</strong></p>";
+            echo "<p style='font-size:15px;'><strong>Customer Information:</strong></p>";
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
 
 
             echo "<div style='display: flex; justify-content: space-between;'>";
             echo "<div style='flex: 1;'>";
+<<<<<<< HEAD
             echo "<p><strong>Guest Name:</strong> {$row['name']}</p>";
             echo "<p><strong>Guest Email:</strong> {$row['email']}</p>";
             echo "</div>";
@@ -402,6 +445,26 @@
             echo "<div style='display: flex; justify-content: space-between;'>";
             echo "<div style='flex: 1;'>";
             echo "<div style='text-align: left;'><strong>List of Amenities</strong><br>";
+=======
+            echo "<p><strong>Name:</strong> {$row['name']}</p>";
+            echo "<p><strong>Email:</strong> {$row['email']}</p>";
+            
+            
+            echo "<p><strong>Check-in Date:</strong> {$row['check_in_date']}</p>";
+            echo "<p><strong>Check-out Date:</strong> {$row['check_out_date']}</p>";
+            echo "<p><strong>Reservation ID:</strong> {$row['reservation_id']}</p>";
+            echo "</div>";
+            echo "</div><hr>";
+
+
+            echo "<div style='display: flex; justify-content: space-between;'>";
+            echo "<div style='flex: 1;'>";
+            echo "<p><strong>Description:</strong></p>";
+            
+            echo "<p>Room:  {$row['room_number']}</p>";
+            echo "<p>Adults {$row['adults']}  |  Children: {$row['children']} </p>";
+            echo "<p><strong>Extras</strong><br></p>";
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
             $sqlAMENITY = "SELECT description, price, services_number FROM services WHERE type='Amenities'";
             $resultamenity = $conn->query($sqlAMENITY);
             if ($resultamenity->num_rows > 0) {
@@ -419,7 +482,11 @@
                     }
                     foreach ($amenities_dict as $amenity_name => $quantity) {
                         if (!in_array($amenity_name, $displayedAmenities)) {
+<<<<<<< HEAD
                             echo "<span>{$amenity_name} - " . number_format($rowamenity['price'], 2) . " Php (x{$quantity})</span><br>";
+=======
+                            echo "<span>{$amenity_name} </span><br>"; 
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
                             $displayedAmenities[] = $amenity_name;
                         }
                     }
@@ -427,6 +494,7 @@
             } else {
                 echo "<p>No Amenities Included.</p>";
             }
+<<<<<<< HEAD
             echo "</div>";
             echo "</div>";
             echo "<div style='flex: 1; text-align: right;'>";
@@ -436,6 +504,60 @@
             echo "<p><strong>Balance:</strong> " . number_format($row['payable_amount'] - $row['paid_amount'], 2) . " Php</p>";
             echo "</div>";
             echo "</div>";
+=======
+            echo "<br><p><strong>Total Amount:</strong> </p>";
+            echo "</div>";
+            echo "<div style='flex: 1; text-align: center;'>";
+            echo "<p><strong>Price:</strong></p>";
+            echo "";
+            echo "<p><strong> " . number_format($row['room_price'], 2) . " Php / Night</p><br><br>";
+            $sqlAMENITY = "SELECT description, price, services_number FROM services WHERE type='Amenities'";
+            $resultamenity = $conn->query($sqlAMENITY);
+            if ($resultamenity->num_rows > 0) {
+                $displayedAmenities = [];
+                while ($rowamenity = $resultamenity->fetch_assoc()) {
+                    $amenitiesArray = explode(' | ', $Amenities_IDS);
+                    $amenities_dict = [];
+                    foreach ($amenitiesArray as $amenity) {
+                        preg_match('/(\w+) \[(\d+)\]/', $amenity, $matches);
+                        if (count($matches) == 3) {
+                            $amenity_name = $matches[1];
+                            $quantity = (int)$matches[2];
+                            $amenities_dict[$amenity_name] = $quantity;
+                        }
+                    }
+                    foreach ($amenities_dict as $amenity_name => $quantity) {
+                        if (!in_array($amenity_name, $displayedAmenities)) {
+                            echo " <br>" . number_format($rowamenity['price'], 2) . " Php (x{$quantity})</span>";
+                            $displayedAmenities[] = $amenity_name;
+                        }
+                    }
+                }
+            } else {
+                echo "<p>No Amenities Included.</p>";
+            }
+            echo "<br><br> " . number_format($row['payable_amount'], 2) . " Php";
+            echo "</div>";
+            echo "</div><hr>";
+
+            echo "<div style='display: flex; justify-content: space-between;'>";
+            echo "<div style='flex: 1;'>";
+            
+            
+            echo "</div>";
+            echo "</div>";
+            
+            
+            
+            echo "<p>Please remit payment by the check-out date to avoid any inconvenience.</p>";
+            echo "<p>Thank you for choosing Kamantigue. If you have any questions or concerns, please contact our front desk at sales@kamantiguebeachresort.com</p><br>";
+            echo "<p>Sitio Malao, Brgy. Pagkilatan</p>";
+            echo "<p>Batangas City, Batangas 4200</p>";
+            echo "<p>sales@kamantiguebeachresort.com</p>";
+            echo "<p>0977 102 4509</p>";
+            echo "</div>";
+            
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
 
             echo "</div>";
             echo "<div class='modal-footer'>";
@@ -525,7 +647,11 @@ echo "</script>";
             echo "</div>";
             echo "<div class='modal-body'>";
 
+<<<<<<< HEAD
             echo "<center><h2>Kamantigue Official Receipt</h2></center><br><br><br><br><br>";
+=======
+            echo "<h2>Kamantigue Beach and Diving Resort</h2><br><br><br><br><br>";
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
 
             echo "<div style='display: flex; justify-content: space-between;'>";
             echo "<div style='flex: 1;'>";
@@ -575,6 +701,11 @@ echo "}";
 echo "</script>";
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
             // Add more columns as needed
             echo "</tr>";
             }
@@ -628,6 +759,24 @@ echo "</script>";
                   elements[i].style.textAlign = textAlign;
               }
           }
+<<<<<<< HEAD
+=======
+
+          function applyPaymentFilter() {
+        var filterValue = document.getElementById("paymentFilter").value;
+        var rows = document.querySelectorAll("table tr");
+
+        for (var i = 1; i < rows.length; i++) {
+            var paymentCell = rows[i].getElementsByTagName("td")[5]; 
+
+            if (filterValue === "all" || paymentCell.innerHTML.includes(filterValue)) {
+                rows[i].style.display = "";
+            } else {
+                rows[i].style.display = "none";
+            }
+        }
+    }
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
         </script>
         <!-- JavaScript to handle the edit popup -->
         <script>
@@ -700,6 +849,11 @@ echo "</script>";
               addPopup.style.display = "none";
           }
         </script>
+<<<<<<< HEAD
+=======
+
+</script>
+>>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
         <!-- <a href="logout.php">Logout</a> -->
         <!-- Vendor JS Files -->
         <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -48,23 +48,10 @@
 
   <main id="main" style="padding-top:100px;">
   
-    <div class="login-container" >
-      <h2>User Login</h2>
-      <form action="user_login_handler.php" method="post">
-          <label for="username">Username:</label>
-          <input type="text" id="username" name="username" required>
-
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required>
-
-          <button type="submit">Login</button>
-      </form>
-      <button style="margin-top:5px; width: 360px;"><a href="user_registration1.php" style="color:white;">Register</a></button>
-<<<<<<< HEAD
-=======
-      <button style="margin-top:5px; width: 360px;"><a href="forgot_password.php" style="color:white;">Forgot Password?</a></button>
->>>>>>> 6a792bcd037971dfd1c8a557824b09af4ffd137c
-  </div>
+  <div class="login-container">
+    <h2>Forgot Password</h2>
+    <p>Incorrect OTP</p>
+ </div>
 
 
 
