@@ -88,7 +88,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Registration successful, send a thank-you email to the user
         $mail = new PHPMailer(true);
         try {
-            // (your mail configuration code here)
+            $mail->isSMTP();
+            $mail->Host = 'premium121.web-hosting.com'; // Your SMTP host
+            $mail->SMTPAuth = true;
+            $mail->Username = 'sales@kamantiguebeachresort.com'; // Your SMTP username
+            $mail->Password = '~dY4[%pCzA!0'; // Your SMTP password
+            $mail->SMTPSecure = 'ssl';
+            $mail->Port = 465;
+    
+            $mail->setFrom('sales@kamantiguebeachresort.com', 'Kamantigue Beach Resort');
+            $mail->addAddress($email); // User's email address and name
+    
+            $mail->isHTML(true);
+            $mail->Subject = 'Rescheduled Reservation';
+            $mail->Body = "You have successfully reserved your room.";
+    
+            $mail->send();
         } catch (Exception $e) {
             // Email sending failed, log the error or handle it as needed
             echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
