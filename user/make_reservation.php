@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->SMTPAuth = true;
             $mail->Username = 'sales@kamantiguebeachresort.com'; // Your SMTP username
             $mail->Password = '~dY4[%pCzA!0'; // Your SMTP password
-            $mail->SMTPSecure = 'ssl';
+            $mail->SMTPSecure = 'ssl';+
             $mail->Port = 465;
     
             $mail->setFrom('sales@kamantiguebeachresort.com', 'Kamantigue Beach Resort');
