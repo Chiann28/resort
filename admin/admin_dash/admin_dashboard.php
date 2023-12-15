@@ -83,7 +83,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="topnav-dropdown-footer"> <a href="#">View all Notifications</a> </div>
+						
 					</div>
 				</li>
 				<li class="nav-item dropdown has-arrow">
