@@ -3,9 +3,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require '../assets/php/PHPMailer.php';
-require '../assets/php/Exception.php';
-require '../assets/php/SMTP.php';
+require '../../assets/php/PHPMailer.php';
+require '../../assets/php/Exception.php';
+require '../../assets/php/SMTP.php';
 // reschedule_reservation.php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -51,21 +51,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
             $mail->send();
 
-        } catch (Exception $e) {
-            
-        }
+
 
         // Success
         echo 'Reservation successfully rescheduled.';
         // Redirect or show success message
-        header("Location: my_reservations.php");
+        header("Location: cancelled_list.php");
         exit();
 
-
+        } catch (Exception $e) {
+            
+        }
     } else {
         // Error handling
-        // $error_message = "Error updating reservation: " .
-        //  $conn->error;
+        // $error_message = "Error updating reservation: " . $conn->error;
         // Handle the error as needed, for example, display an error message to the user
     }
 }

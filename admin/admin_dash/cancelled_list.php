@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Start the session
 session_start();
 
@@ -26,7 +26,7 @@ $sql = "SELECT reservations.*, rooms.room_id, rooms.room_number, rooms.descripti
         FROM reservations
         JOIN rooms ON reservations.room_id = rooms.room_id
         JOIN users ON reservations.user_id = users.user_id
-		WHERE reservations.status != 'Rejected'";
+        WHERE reservations.status = 'Rejected'";
 
 if(isset($_POST['search_username']) && !empty($_POST['search_username'])){
     $search_username = $_POST['search_username'];
@@ -44,7 +44,7 @@ $servicesSQL = "SELECT reservations.*, services_number, services_description, se
                  services_number IS NOT NULL
                 AND services_description IS NOT NULL
                 AND services_price IS NOT NULL
-				AND reservations.status != 'Rejected'";
+                AND reservations.status = 'Rejected'";
 
 if(isset($_POST['search_username']) && !empty($_POST['search_username'])){
     $search_username = $_POST['search_username'];
@@ -218,7 +218,7 @@ $servicesResult = $conn->query($servicesSQL);
 					<div class="row align-items-center">
 						<div class="col">
 							<div class="mt-5">
-								<h4 class="card-title float-left mt-2">All reservations</h4>
+								<h4 class="card-title float-left mt-2">Cancelled reservations</h4>
 								
                                 <a href="add-booking.html" class="btn btn-primary float-right veiwbutton ">Add Booking</a>
                             </div>
@@ -286,6 +286,41 @@ $servicesResult = $conn->query($servicesSQL);
 
 								
 												echo "<td>"; 
+
+                                                ?>
+
+                                                <div class="modal fade" id="rescheduleModal<?php echo $row['reservation_id']; ?>" tabindex="-1" role="dialog" aria-labelledby="rescheduleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="rescheduleModalLabel">Reschedule Reservation</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form action="reschedule_reservation.php" method="post">
+                                                                <input type="hidden" name="reservation_id" value="<?php echo $row['reservation_id']; ?>" />
+                                                                <div class="form-group">
+                                                                    <label for="new_check_in_date">New Check-in Date:</label>
+                                                                    <input type="date" class="form-control" id="new_check_in_date" name="new_check_in_date" required />
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="new_check_out_date">New Check-out Date:</label>
+                                                                    <input type="date" class="form-control" id="new_check_out_date" name="new_check_out_date" required />
+                                                                </div>
+                                                                <button type="submit" class="btn btn-primary">Reschedule</button>
+                                                            </form>
+                                                        </div>
+                                                
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                
+                                                <?php
 								
 											if($totalAmenitiesPrice != '' && $totalAmenitiesPrice != '0')
 											{
@@ -375,11 +410,22 @@ $servicesResult = $conn->query($servicesSQL);
 												  echo "<br><br><a class='btn btn-warning' style='width:100px;' href='edit_reservation_status.php?reservation_id=" . $row['reservation_id'] . "&status=Rejected'>Cancel</a>";
 												  
 												}
+
+                                                if($row['status'] == 'Rejected'){
+								
+                                                    // echo "<a class='btn btn-success' style='width:120px;' href='edit_reservation_status.php?reservation_id=" . $row['reservation_id'] . "&status=Approved&email=".$row['email']."&name=".$row['name']."'>Reschedule</a>";
+
+                                                    echo "<button type='button' class='btn btn-info' data-toggle='modal' data-target='#rescheduleModal" . $row['reservation_id'] . "'>Reschedule</button><br>";
+
+                                                    
+                                                  }
 								
 												echo "</td>";
 												// Add more columns as needed
 												echo "</tr>";
 											}
+
+                                           
 										} else {
 											
 										}
@@ -444,10 +490,11 @@ $servicesResult = $conn->query($servicesSQL);
 											// echo "<tr><td colspan='12'>No reservations found.</td></tr>";
 										}
 										// Close the database connection
-										$conn->close();
+										// $conn->close();
 										?>
 
 									</table>
+                                    
 								</div>
 							</div>
 						</div>

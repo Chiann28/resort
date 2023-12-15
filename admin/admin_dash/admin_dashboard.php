@@ -111,6 +111,7 @@
 							<ul class="submenu_class" style="display: none;">
 								<li><a href="reservation_list.php"> All Reservations </a></li>
 								<li><a href="reschedule.php"> Rescheduled Reservations </a></li>
+                                <li><a href="cancelled_list.php"> Cancelled Reservations </a></li>
 								<li><a href="add_new_reservations.php"> Add Reservations </a></li>
                                 <li><a href="checkout_list.php"> Check out </a></li>
 							</ul>
