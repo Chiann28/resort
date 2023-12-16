@@ -173,8 +173,10 @@
                 echo "<button type='button' style='background-color:white; color:black; border: 1px solid black;' class='btn btn-primary' data-toggle='modal' data-target='#myModal" . $row['reservation_id'] . "'>View Availed Amenities</button><br>";
             }
 
+            if ($row['status'] != 'Rescheduled') {
             echo "<button type='button' class='btn btn-info' data-toggle='modal' data-target='#rescheduleModal" . $row['reservation_id'] . "'>Reschedule</button><br>";
 
+            }
             ?>
       
                  <div class='modal fade' id='myModal<?php echo $row['reservation_id']; ?>' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
