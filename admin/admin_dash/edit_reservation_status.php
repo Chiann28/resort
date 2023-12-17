@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['reservation_id']) && is
 
     // Check if the new status is a valid enum value (Pending, Approved, Rejected)
 
-    $valid_statuses = array("Pending", "Approved", "Rejected");
+    $valid_statuses = array("Pending", "Approved", "Rejected", "Rescheduled", "Rescheduled-Approved");
 
     if (!in_array($new_status, $valid_statuses)) {
 

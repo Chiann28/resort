@@ -406,7 +406,7 @@ $servicesResult = $conn->query($servicesSQL);
 								
 												if($row['status'] != 'Approved' && $row['status'] != 'Rejected'){
 								
-												  echo "<a class='btn btn-success' style='width:100px;' href='edit_reservation_status.php?reservation_id=" . $row['reservation_id'] . "&status=Approved&email=".$row['email']."&name=".$row['name']."'>Confirm</a>";
+												  echo "<a class='btn btn-success' style='width:100px;' href='edit_reservation_status.php?reservation_id=" . $row['reservation_id'] . "&status=Rescheduled-Approved&email=".$row['email']."&name=".$row['name']."'>Confirm</a>";
 												  echo "<br><br><a class='btn btn-warning' style='width:100px;' href='edit_reservation_status.php?reservation_id=" . $row['reservation_id'] . "&status=Rejected'>Cancel</a>";
 												  
 												}
