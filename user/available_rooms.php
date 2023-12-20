@@ -50,10 +50,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
             echo "<form id='reservationForm' action='make_reservation.php' method='post'>";
-            echo "<label for='adults'>Number of Adults:</label>";
-            echo "<input type='number' name='adults' id='adults' oninput='checkTotalGuests()' value='0' required>";
-            echo "<label for='children'>Number of Children:</label>";
-            echo "<input type='number' name='children' id='children' oninput='checkTotalGuests()' value='0' required>";
+            echo "<center><label for='adults'>Number of Adults:</label>";
+            echo "<input type='number' class='form-control'  name='adults' id='adults' oninput='checkTotalGuests()' value='0' required>";
+            echo "<label for='children'>Number of Children<br>( Above 8yrs Old ):</label>";
+            echo "<input type='number' class='form-control'  name='children' id='children' oninput='checkTotalGuests()' value='0' required>";
+            echo "<label for='children'>Number of Children ( Optional & free )<br>( 8yrs Old & Below ):</label>";
+            echo "<input type='number' class='form-control' name='childrenfree' id='childrenfree' value='0'></center>";
 
             // Add a hidden input field for room number
             echo "<input type='hidden' name='room_id' id='roomID' value='{$row['room_id']}'>";

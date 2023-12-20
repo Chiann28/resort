@@ -43,7 +43,7 @@
 
       <a class="nav-link" href="user_reservations.php">
         <i class="fa fa-shopping-cart"></i>
-        <sup id="cart-badge" class="badge badge-danger" style="color: red "></sup>
+        <sup id="cart-badge" class="badge badge-danger" style="color: white "></sup>
       </a>
 
     </ul>

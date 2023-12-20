@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 
 // Get the user ID (you need to implement user authentication)
 $user_id = $_SESSION['user_id']; // Modify this to fetch the logged-in user's ID
-
+$reservation_count = 0;
 // Query to count reservations for the user
 $sql = "SELECT COUNT(*) AS reservation_count FROM reservations WHERE user_id = $user_id AND reference_number IS NULL";
 

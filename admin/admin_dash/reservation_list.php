@@ -90,81 +90,6 @@ $servicesResult = $conn->query($servicesSQL);
 			</div>
 			<a href="javascript:void(0);" id="toggle_btn"> <i class="fe fe-text-align-left"></i> </a>
 			<a class="mobile_btn" id="mobile_btn"> <i class="fas fa-bars"></i> </a>
-			<ul class="nav user-menu">
-				<li class="nav-item dropdown noti-dropdown">
-					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <i class="fe fe-bell"></i> <span class="badge badge-pill">3</span> </a>
-					<div class="dropdown-menu notifications">
-						<div class="topnav-dropdown-header"> <span class="notification-title">Notifications</span> <a href="javascript:void(0)" class="clear-noti"> Clear All </a> </div>
-						<div class="noti-content">
-							<ul class="notification-list">
-								<li class="notification-message">
-									<a href="#">
-										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="admin.jpg">
-											</span>
-											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">Sample</span> Sample <span class="noti-title">sample</span></p>
-												<p class="noti-time"><span class="notification-time">4 mins ago</span> </p>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="notification-message">
-									<a href="#">
-										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="admin.jpg">
-											</span>
-											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">International Software
-													Inc</span> has sent you a invoice in the amount of <span class="noti-title">$218</span></p>
-												<p class="noti-time"><span class="notification-time">6 mins ago</span> </p>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="notification-message">
-									<a href="#">
-										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-17.jpg">
-											</span>
-											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">Chein Ian</span> sent a cancellation request <span class="noti-title">Barkada Room 1</span></p>
-												<p class="noti-time"><span class="notification-time">8 mins ago</span> </p>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="notification-message">
-									<a href="#">
-										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-13.jpg">
-											</span>
-											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">Guest 1
-												</span> has checked out <span class="noti-title">
-												</span></p>
-												<p class="noti-time"><span class="notification-time">12 mins ago</span> </p>
-											</div>
-										</div>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="topnav-dropdown-footer"> <a href="#">View all Notifications</a> </div>
-					</div>
-				</li>
-				<li class="nav-item dropdown has-arrow">
-					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <span class="user-img"><img class="rounded-circle" src="admin.jpg" width="31" alt="kamantigue"></span> </a>
-					<div class="dropdown-menu">
-						<div class="user-header">
-							<div class="avatar avatar-sm"> <img src="admin.jpg" alt="User Image" class="avatar-img rounded-circle"> </div>
-							<div class="user-text">
-								<h6>Admin</h6>
-								<p class="text-muted mb-0">Administrator</p>
-							</div>
-							</div>  <a class="dropdown-item" href="logout.php">Logout</a> </div>
-				</li>
-			</ul>
 			
 		</div>
 		<div class="sidebar" id="sidebar">
@@ -185,7 +110,6 @@ $servicesResult = $conn->query($servicesSQL);
 						<li class="submenu"> <a href="#"><i class="fas fa-user"></i> <span> Customers </span> <span class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
 								<li><a href="admin_users.php"> All customers </a></li>
-								<li><a href="add_customer.php"> Add Customer </a></li>
 							</ul>
 						</li>
 						<li class="submenu"> <a href="#"><i class="fas fa-key"></i> <span> Rooms </span> <span class="menu-arrow"></span></a>
@@ -220,17 +144,25 @@ $servicesResult = $conn->query($servicesSQL);
 							<div class="mt-5">
 								<h4 class="card-title float-left mt-2">All reservations</h4>
 								
-                                <a href="add-booking.html" class="btn btn-primary float-right veiwbutton ">Add Booking</a>
+                                <a href="add_new_reservations.php" class="btn btn-primary float-right veiwbutton ">Add Booking</a>
                             </div>
 						</div>
 					</div>
 				</div>
+
+        <style>
+
+      td {
+          text-align: left;
+    vertical-align: top; 
+      }
+        </style>
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="card card-table">
 							<div class="card-body booking_card">
 								<div class="table-responsive">
-									<table>
+									<table style="width:100%;">
 										<tr>
 											<th>Room/Service Details</th>
 											<th>Amenities Details</th>
@@ -238,6 +170,7 @@ $servicesResult = $conn->query($servicesSQL);
 											<th>Date Details</th>
 											<th>Amount Details</th>
 											<th>Payment Details</th>
+           									 <th>Type</th>
 											<th style='text-align:center;'>Action</th>
 										</tr>
 
@@ -280,9 +213,10 @@ $servicesResult = $conn->query($servicesSQL);
 												
 												echo "<td>Room ID: " . $row['room_id'] . "<br>";
 												echo "Room #: " . $row['room_number'] . "<br>";
-												echo "Description: <br>" . $row['description'] . "<br>";
+												echo "Description: <br>" . $row['description'] . "<br><br>";
 												echo "Adult Count: " . $row['adults'] . "<br>";
-												echo "Child Count: " . $row['children'] . "</td>";
+												echo "Child Count ( 8yrs old above ): " . $row['children'] . "<br>";
+												echo "Child Count ( 8yrs old & below ): " . $row['childrenfree'] . "</td>";
 
 								
 												echo "<td>"; 
@@ -341,9 +275,16 @@ $servicesResult = $conn->query($servicesSQL);
 											  }
 												echo "</td>";
 								
-												echo "<td style='color:black'>Guest ID: " . $row['user_id'] . "";
-												echo "<br>Guest Name: " . $row['name'] . "";
-												echo "<br>Guest Email: " . $row['email'] . "</td>";
+												      if($row['user_id'] != '99999' && $row['name'] != 'Admin Cashier'){
+
+            echo "<td style='color:black;'>Guest ID: " . $row['user_id'] . "<br>";
+            echo "Guest Name: " . $row['name'] . "<br>";
+            echo "Guest Email: " . $row['email'] . "</td>";
+            }else{
+
+            echo "<td style='color:black;'>" . $row['guest_information'] . "</td>";
+            }
+
 								
 												echo "<td>Reservation Date: " . $row['submitted_date'] . "";
 												echo "<br>Date IN: " . $row['check_in_date'] . "";
@@ -356,16 +297,29 @@ $servicesResult = $conn->query($servicesSQL);
 												Remaining Bal: ".number_format(($row['payable_amount'] - $row['paid_amount']),2)." Php
 												"; 
 								
-												if($row['down_payment'] != '0'){
+												
+            if($row['user_id'] != '99999' && $row['name'] != 'Admin Cashier'){
+            if($row['down_payment'] != '0'){
+            
+            echo "<td style='color:black;'>Gcash Ref#: ".$row['reference_number']."<br>Downpayment: ".number_format($row['down_payment'],2)." Php
+            <br><br>Onsite Payment<br>Paid Amount: ".number_format(($row['paid_amount'] - $row['down_payment']),2)."</td>";
+            }else{
+            
+            echo "<td style='color:black;'>Gcash Ref#: ".$row['reference_number']."<br>Paid Amount: ".number_format($row['paid_amount'],2)." Php</td>";
+            }
+            }else{
+
+            echo "<td style='color:black;'>Payment Ref#: ".$row['reference_number']."<br>Downpayment: ".number_format($row['down_payment'],2)." Php
+            <br><br>Onsite Payment<br>Paid Amount: ".number_format(($row['paid_amount']),2)."</td>";
+            }
 								
-												echo "<td style='color:black;'>Gcash Ref#: ".$row['reference_number']."<br>Downpayment: ".number_format($row['down_payment'],2)." Php
-												<br><br>Onsite Payment<br>Paid Amount: ".number_format(($row['paid_amount'] - $row['down_payment']),2)."</td>";
-												}else{
-								
-												echo "<td style='color:black;'>Gcash Ref#: ".$row['reference_number']."<br>Paid Amount: ".number_format($row['paid_amount'],2)." Php</td>";
-												}
-								
-								
+            if($row['user_id'] != '99999' && $row['name'] != 'Admin Cashier'){
+              echo '<td>Online Reservation</td>';
+            }else{
+
+              echo '<td>Onsite Reservation</td>';
+            }
+
 												echo "<td>
 												<center>".$row['status']."<br><br>";
 								
@@ -413,10 +367,17 @@ $servicesResult = $conn->query($servicesSQL);
 												echo "<br>Description: <br>" . $servicesRow['services_description'] . "</td>";
 												echo "<td>Not Applicable</td>";
 								
-												echo "<td style='color:black'>Guest ID: " . $servicesRow['user_id'] . "";
-												echo "<br>Guest Name: " . $servicesRow['name'] . "";
-												echo "<br>Guest Email: " . $servicesRow['email'] . "</td>";
-								
+											
+            if($servicesRow['user_id'] != '99999' && $servicesRow['name'] != 'Admin Cashier'){
+
+            echo "<td style='color:black;'>Guest ID: " . $servicesRow['user_id'] . "<br>";
+            echo "Guest Name: " . $servicesRow['name'] . "<br>";
+            echo "Guest Email: " . $servicesRow['email'] . "</td>";
+            }else{
+
+            echo "<td>" . $servicesRow['guest_information'] . "</td>";
+            }
+
 												echo "<td>Reservation Date: " . $servicesRow['submitted_date'] ."</td>";
 								
 												echo "<td style='color:black; '>
@@ -425,16 +386,30 @@ $servicesResult = $conn->query($servicesSQL);
 												Remaining Bal: ".number_format(($servicesRow['payable_amount'] - $servicesRow['paid_amount']),2)." Php
 												"; 
 								
-												if($servicesRow['down_payment'] != '0'){
+            
+            if($servicesRow['user_id'] != '99999' && $servicesRow['name'] != 'Admin Cashier'){
+            if($servicesRow['down_payment'] != '0'){
+            
+            echo "<td style='color:black;'>Gcash Ref#: ".$servicesRow['reference_number']."<br>Downpayment: ".number_format($servicesRow['down_payment'],2)." Php
+            <br><br>Onsite Payment<br>Paid Amount: ".number_format(($servicesRow['paid_amount'] - $servicesRow['down_payment']),2)."</td>";
+            }else{
+            
+            echo "<td style='color:black;'>Gcash Ref#: ".$servicesRow['reference_number']."<br>Paid Amount: ".number_format($servicesRow['paid_amount'],2)." Php</td>";
+            }
+            }else{
+
+            echo "<td style='color:black;'>Payment Ref#: ".$servicesRow['reference_number']."<br>Downpayment: ".number_format($servicesRow['down_payment'],2)." Php
+            <br><br>Onsite Payment<br>Paid Amount: ".number_format(($servicesRow['paid_amount']),2)."</td>";
+            }
+            
 								
-												echo "<td style='color:black;'>Gcash Ref#: ".$servicesRow['reference_number']."<br>Downpayment: ".number_format($servicesRow['down_payment'],2)." Php
-												<br><br>Onsite Payment<br>Paid Amount: ".number_format(($servicesRow['paid_amount'] - $servicesRow['down_payment']),2)."</td>";
-												}else{
 								
-												echo "<td style='color:black;'>Gcash Ref#: ".$servicesRow['reference_number']."<br>Paid Amount: ".number_format($servicesRow['paid_amount'],2)." Php</td>";
-												}
-								
-								
+            if($servicesRow['user_id'] != '99999' && $servicesRow['name'] != 'Admin Cashier'){
+              echo '<td>Online Reservation</td>';
+            }else{
+
+              echo '<td>Onsite Reservation</td>';
+            }
 												echo "<td>
 												<center>".$servicesRow['status']."<br><br>";
 								

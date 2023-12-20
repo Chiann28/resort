@@ -28,6 +28,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user_id = $_SESSION['user_id']; // Assuming you have a logged-in user with an ID
     $children = $_POST['children'];
     $adults = $_POST['adults'];
+    $childrenfree = $_POST['childrenfree'];
+
+    if($childrenfree == ''){
+        $childrenfree = '0';
+    }
 
     // Calculate the total number of guests
     $total_guests = $adults + $children;
@@ -69,8 +74,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     // Insert the reservation into the database
-    $sql = "INSERT INTO reservations (user_id, room_id, check_in_date, check_out_date, status, adults, children)
-            VALUES ('$user_id', '$room_id', '$check_in_date', '$check_out_date', 'Pending', '$adults', '$children')";
+    $sql = "INSERT INTO reservations (user_id, room_id, check_in_date, check_out_date, status, adults, children, childrenfree)
+            VALUES ('$user_id', '$room_id', '$check_in_date', '$check_out_date', 'Pending', '$adults', '$children','$childrenfree')";
 
     // Execute the SQL query and perform error handling
     if ($conn->query($sql) === TRUE) {

@@ -26,7 +26,25 @@ if ($conn->connect_error) {
 }
 
 // Fetch all user data from the database
+
+if(isset($_POST['submitfilter'])){
+	$useridsearch = $_POST['useridsearch'];
+	$fromDate = $_POST['fromDate'];
+	$toDate = $_POST['toDate'];
+
+	if($useridsearch != ''){
+
+	$sql = "SELECT * FROM audit WHERE date BETWEEN '$fromDate' AND '$toDate' AND user_id = '$useridsearch'";
+	}else{
+
+	$sql = "SELECT * FROM audit WHERE date BETWEEN '$fromDate' AND '$toDate'";
+	}
+
+}else{
+
 $sql = "SELECT * FROM audit";
+}
+
 $result = $conn->query($sql);
 ?>
 
@@ -114,82 +132,7 @@ $result = $conn->query($sql);
 			</div>
 			<a href="javascript:void(0);" id="toggle_btn"> <i class="fe fe-text-align-left"></i> </a>
 			<a class="mobile_btn" id="mobile_btn"> <i class="fas fa-bars"></i> </a>
-			<ul class="nav user-menu">
-				<li class="nav-item dropdown noti-dropdown">
-					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <i class="fe fe-bell"></i> <span class="badge badge-pill">3</span> </a>
-					<div class="dropdown-menu notifications">
-						<div class="topnav-dropdown-header"> <span class="notification-title">Notifications</span> <a href="javascript:void(0)" class="clear-noti"> Clear All </a> </div>
-						<div class="noti-content">
-							<ul class="notification-list">
-								<li class="notification-message">
-									<a href="#">
-										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="admin.jpg">
-											</span>
-											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">Sample</span> Sample <span class="noti-title">sample</span></p>
-												<p class="noti-time"><span class="notification-time">4 mins ago</span> </p>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="notification-message">
-									<a href="#">
-										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="admin.jpg">
-											</span>
-											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">International Software
-													Inc</span> has sent you a invoice in the amount of <span class="noti-title">$218</span></p>
-												<p class="noti-time"><span class="notification-time">6 mins ago</span> </p>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="notification-message">
-									<a href="#">
-										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-17.jpg">
-											</span>
-											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">Chein Ian</span> sent a cancellation request <span class="noti-title">Barkada Room 1</span></p>
-												<p class="noti-time"><span class="notification-time">8 mins ago</span> </p>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="notification-message">
-									<a href="#">
-										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-13.jpg">
-											</span>
-											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">Guest 1
-												</span> has checked out <span class="noti-title">
-												</span></p>
-												<p class="noti-time"><span class="notification-time">12 mins ago</span> </p>
-											</div>
-										</div>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="topnav-dropdown-footer"> <a href="#">View all Notifications</a> </div>
-					</div>
-				</li>
-				<li class="nav-item dropdown has-arrow">
-					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <span class="user-img"><img class="rounded-circle" src="admin.jpg" width="31" alt="kamantigue"></span> </a>
-					<div class="dropdown-menu">
-						<div class="user-header">
-							<div class="avatar avatar-sm"> <img src="admin.jpg" alt="User Image" class="avatar-img rounded-circle"> </div>
-							<div class="user-text">
-								<h6>Admin</h6>
-								<p class="text-muted mb-0">Administrator</p>
-							</div>
-							</div>  <a class="dropdown-item" href="logout.php">Logout</a> </div>
-				</li>
-			</ul>
-			
+				
 		</div>
 		<div class="sidebar" id="sidebar">
 			<div class="sidebar-inner slimscroll">
@@ -201,6 +144,7 @@ $result = $conn->query($sql);
 							<ul class="submenu_class" style="display: none;">
 								<li><a href="reservation_list.php"> All Reservations </a></li>
 								<li><a href="reschedule.php"> Rescheduled Reservations </a></li>
+								<li><a href="cancelled_list.php"> Cancelled Reservations </a></li>
 								<li><a href="add_new_reservations.php"> Add Reservations </a></li>
 								<li><a href="checkout_list.php"> Check out </a></li>
 							</ul>
@@ -208,7 +152,6 @@ $result = $conn->query($sql);
 						<li class="submenu"> <a href="#"><i class="fas fa-user"></i> <span> Customers </span> <span class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
 								<li><a href="admin_users.php"> All customers </a></li>
-								<li><a href="add_customer.php"> Add Customer </a></li>
 							</ul>
 						</li>
 						<li class="submenu"> <a href="#"><i class="fas fa-key"></i> <span> Rooms </span> <span class="menu-arrow"></span></a>
@@ -241,7 +184,7 @@ $result = $conn->query($sql);
 					<div class="row align-items-center">
 						<div class="col">
 							<div class="mt-5">
-								<h4 class="card-title float-left mt-2">Guest Report</h4>
+								<h4 class="card-title float-left mt-2">Audit Trail Report</h4>
                                 <button onclick="printTable()" style="margin-left:20px; margin-top:7px; background-color:gray; color:white;">Print Report</button>
                             </div>
 						</div>
@@ -249,10 +192,31 @@ $result = $conn->query($sql);
 				</div>
 				<div class="row">
 					<div class="col-sm-12">
+				<div class="row mb-3">
+					<form action="" method="POST" style="width:100%; display:flex;">
+					    <div class="col-md-2">
+					        <label for="fromDate">Search User ID: (Optional)</label>
+					        <input type="number" id="useridsearch" name="useridsearch" class="form-control" placeholder="User ID" value="<?php if(isset($_POST['useridsearch']) && $_POST['useridsearch'] != ''){ echo $_POST['useridsearch']; } ?>" />
+					    </div>
+					    <div class="col-md-2">
+					        <label for="fromDate">From Date:</label>
+					        <input type="date" id="fromDate" name="fromDate" class="form-control" value="<?php if(isset($_POST['fromDate']) && $_POST['fromDate'] != ''){ echo $_POST['fromDate']; }else{ echo date('Y-m-d'); } ?>" required />
+					    </div>
+					    <div class="col-md-2">
+					        <label for="toDate">To Date:</label>
+					        <input type="date" id="toDate" name="toDate" class="form-control" value="<?php if(isset($_POST['toDate']) && $_POST['toDate'] != ''){ echo $_POST['toDate']; }else{ echo date('Y-m-d'); } ?>" required />
+					    </div>
+					    <div class="col-md-3" style="margin-top:1vh;">
+					        <button type="submit" id="submitfilter" name="submitfilter" class="btn btn-primary mt-4">Apply Filter</button>
+					        <a href='audit_report.php' class="btn btn-warning mt-4">RESET</a>
+					    </div>
+					</form>
+				</div>
+
 						<div class="card card-table">
 							<div class="card-body booking_card">
 								<div class="table-responsive">
-									<table>
+									<table style="width:100%;">
                                     <tr>
                     <th style="width:25%;">Date</th>
                     <th style="width:15%;">User ID</th>

@@ -155,7 +155,10 @@
             echo "<div class='cart-item'>Check-in Date: " . $row['check_in_date'] . "</div>";
             echo "<div class='cart-item'>Check-out Date: " . $row['check_out_date'] . "</div>";
             echo "<div class='cart-item'>Adults: " . $row['adults'] . "</div>";
-            echo "<div class='cart-item'>Children: " . $row['children'] . "</div>";
+            echo "<div class='cart-item'>Children ( 8yrs old above ): " . $row['children'] . "</div>";
+                            if($row['childrenfree'] != '' && $row['childrenfree'] != '0'){
+                                echo "<div class='cart-item'>Children ( 8yrs old & below ): " . $row['childrenfree'] . "</div>";
+                            }
             echo "<div class='cart-item'>Status: " . $row['status'] . "</div>";
             if($totalAmenitiesPrice != '' && $totalAmenitiesPrice != '0')
             {

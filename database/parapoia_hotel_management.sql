@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 30, 2023 at 11:40 PM
+-- Generation Time: Dec 19, 2023 at 11:52 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.25
 
@@ -214,7 +214,42 @@ INSERT INTO `audit` (`id`, `user_id`, `user_name`, `action_taken`, `date`) VALUE
 (151, '1', 'admin', 'Set fully paid reservation ID: 196', '2023-11-30 20:13:39'),
 (152, '1', 'admin', 'Set fully paid reservation ID: 194', '2023-11-30 20:22:18'),
 (153, '1', 'user', 'Add to cart service with service ID: 2', '2023-11-30 20:55:34'),
-(154, '1', 'user', 'Guest paid its reservation with reservation ID: 205 thru Gcash, payment reference #: 77777777', '2023-11-30 20:55:42');
+(154, '1', 'user', 'Guest paid its reservation with reservation ID: 205 thru Gcash, payment reference #: 77777777', '2023-11-30 20:55:42'),
+(155, '1', 'user', 'Logged on', '2023-12-11 11:36:38'),
+(156, '1', 'user', 'Logged on', '2023-12-11 13:04:46'),
+(157, '1', 'user', 'Add to cart service with service ID: 2', '2023-12-11 13:04:50'),
+(158, '1', 'user', 'User delete its reservation with reservation ID: 206 from reservations cart.', '2023-12-12 13:17:56'),
+(159, '1', 'user', 'Add to cart room reservation with room ID: 12', '2023-12-12 13:23:22'),
+(160, '1', 'user', 'Add to cart room reservation with room ID: 13', '2023-12-12 13:41:27'),
+(161, '1', 'admin', 'Logged on', '2023-12-12 13:57:59'),
+(162, '1', 'admin', 'Logged on', '2023-12-14 12:40:28'),
+(163, '1', 'admin', 'Update the status of reservation ID: 208 to Rejected', '2023-12-14 13:30:00'),
+(164, '1', 'admin', 'Update the status of reservation ID: 207 to Rejected', '2023-12-14 13:30:02'),
+(165, '1', 'admin', 'Update the status of reservation ID: 208 to Approved', '2023-12-14 13:46:22'),
+(166, '1', 'admin', 'Update the status of reservation ID: 207 to Rejected', '2023-12-15 14:02:50'),
+(167, '1', 'admin', 'Logged on', '2023-12-19 04:00:24'),
+(168, '1', 'user', 'Logged on', '2023-12-19 04:44:50'),
+(169, '1', 'user', 'Add to cart room reservation with room ID: 13', '2023-12-19 04:50:45'),
+(170, '1', 'user', 'User delete its reservation with reservation ID: 209 from reservations cart.', '2023-12-19 04:50:54'),
+(171, '1', 'user', 'Add to cart room reservation with room ID: 13', '2023-12-19 04:51:04'),
+(172, '1', 'user', 'Guest paid its reservation with reservation ID: 210 thru Gcash, payment reference #: 222334233344', '2023-12-19 04:51:24'),
+(173, '1', 'user', 'Add to cart service with service ID: 2', '2023-12-19 04:55:22'),
+(174, '1', 'user', 'Logged Out', '2023-12-19 04:59:41'),
+(175, '1', 'admin', 'Logged on', '2023-12-19 04:59:54'),
+(176, '1', 'user', 'Logged on', '2023-12-19 08:38:26'),
+(177, '1', 'admin', 'Logged on', '2023-12-19 17:17:22'),
+(178, '1', 'user', 'Logged on', '2023-12-19 18:45:37'),
+(179, '1', 'user', 'Add to cart room reservation with room ID: 13', '2023-12-19 19:14:18'),
+(180, '1', 'user', 'Guest paid its reservation with reservation ID: 341 thru Gcash, payment reference #: AASD223232355', '2023-12-19 19:19:40'),
+(181, '1', 'user', 'Logged on', '2023-12-19 22:29:46'),
+(182, '1', 'user', 'Add to cart room reservation with room ID: 14', '2023-12-19 22:43:27'),
+(183, '1', 'user', 'Guest paid its reservation with reservation ID: 346 thru Gcash, payment reference #: qweqweqw123123', '2023-12-19 22:43:34'),
+(184, '1', 'user', 'Add to cart service with service ID: 2', '2023-12-19 22:47:22'),
+(185, '1', 'user', 'Guest paid its reservation with reservation ID: 347 thru Gcash, payment reference #: 123123', '2023-12-19 22:47:27'),
+(186, '1', 'user', 'Add to cart service with service ID: 2', '2023-12-19 22:49:48'),
+(187, '1', 'user', 'Guest paid its reservation with reservation ID: 348 thru Gcash, payment reference #: 4442323', '2023-12-19 22:49:56'),
+(188, '1', 'user', 'Add to cart room reservation with room ID: 16', '2023-12-19 22:50:13'),
+(189, '1', 'user', 'Guest paid its reservation with reservation ID: 349 thru Gcash, payment reference #: 33322', '2023-12-19 22:50:17');
 
 -- --------------------------------------------------------
 
@@ -298,34 +333,33 @@ CREATE TABLE `reservations` (
   `Amenities_prices` varchar(255) DEFAULT NULL,
   `check_in_date` date DEFAULT NULL,
   `check_out_date` date DEFAULT NULL,
-  `status` enum('Pending','Approved','Rejected') DEFAULT NULL,
+  `status` enum('Pending','Approved','Rejected','Rescheduled') DEFAULT NULL,
   `adults` int(11) DEFAULT NULL,
   `children` int(11) DEFAULT NULL,
+  `childrenfree` varchar(50) DEFAULT '0',
   `reference_number` varchar(255) DEFAULT NULL,
   `Amenities_totalprice` varchar(255) DEFAULT '0',
   `payable_amount` varchar(255) NOT NULL DEFAULT '0',
   `paid_amount` varchar(255) NOT NULL DEFAULT '0',
   `check_out_status` varchar(100) DEFAULT 'waiting' COMMENT 'waiting and checkedout',
   `down_payment` varchar(100) DEFAULT '0',
-  `submitted_date` timestamp NOT NULL DEFAULT current_timestamp()
+  `submitted_date` timestamp NOT NULL DEFAULT current_timestamp(),
+  `guest_information` text DEFAULT NULL COMMENT 'For onsite reservation'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `reservations`
 --
 
-INSERT INTO `reservations` (`reservation_id`, `user_id`, `room_id`, `services_number`, `services_description`, `services_price`, `Amenities`, `Amenities_prices`, `check_in_date`, `check_out_date`, `status`, `adults`, `children`, `reference_number`, `Amenities_totalprice`, `payable_amount`, `paid_amount`, `check_out_status`, `down_payment`, `submitted_date`) VALUES
-(192, 1, NULL, 2, 'Banana Boat (10 pax)', 3500, NULL, NULL, NULL, NULL, 'Pending', NULL, NULL, 'AASD2232323', '0', '3500', '1050', 'waiting', '0', '2023-11-30 20:27:00'),
-(193, 1, NULL, 3, 'Aqua Slider (4 pax)', 2000, NULL, NULL, NULL, NULL, 'Pending', NULL, NULL, 'AASD2232323', '0', '2000', '600', 'waiting', '0', '2023-11-30 20:27:00'),
-(194, 1, 12, NULL, NULL, NULL, 'Pillows [5] | ', '100 | ', '2023-12-01', '2023-12-02', 'Approved', 1, 2, 'AASD2232323', '500', '12500', '12500', 'checkedout', '3750', '2023-11-30 20:27:00'),
-(196, 1, 21, NULL, NULL, NULL, 'Comforter [1] | Condom [2] | ', '200 | 300 | ', '2023-12-28', '2023-12-30', 'Approved', 1, 2, 'AASD2232323', '800', '12000', '12000', 'waiting', '0', '2023-11-30 20:27:00'),
-(197, 1, NULL, 2, 'Banana Boat (10 pax)', 3500, NULL, NULL, NULL, NULL, 'Pending', NULL, NULL, '331112233', '0', '3500', '3500', 'waiting', '0', '2023-11-30 20:27:00'),
-(200, 1, 14, NULL, NULL, NULL, NULL, NULL, '2023-12-01', '2023-12-02', 'Approved', 1, 1, 'TEST1', '0', '3000', '3000', 'checkedout', '0', '2023-11-30 20:27:00'),
-(201, 1, 15, NULL, NULL, NULL, NULL, NULL, '2023-12-01', '2023-12-02', 'Approved', 1, 1, 'TEST2', '0', '2000', '2000', 'checkedout', '0', '2023-11-30 20:27:00'),
-(202, 1, 20, NULL, NULL, NULL, NULL, NULL, '2023-12-01', '2023-12-02', 'Approved', 1, 1, 'TEST3', '0', '9000', '9000', 'checkedout', '0', '2023-11-30 20:27:00'),
-(203, 1, NULL, 3, 'Aqua Slider (4 pax)', 2000, NULL, NULL, NULL, NULL, 'Pending', NULL, NULL, 'TEST4', '0', '2000', '2000', 'waiting', '0', '2023-11-30 20:27:00'),
-(204, 1, 12, NULL, NULL, NULL, NULL, NULL, '2023-12-01', '2023-12-02', 'Rejected', 1, 1, '3332223', '0', '12500', '12500', 'waiting', '0', '2023-11-30 20:27:00'),
-(205, 1, NULL, 2, 'Banana Boat (10 pax)', 3500, NULL, NULL, NULL, NULL, 'Approved', NULL, NULL, '77777777', '0', '3500', '3500', 'waiting', '0', '2023-11-30 20:55:34');
+INSERT INTO `reservations` (`reservation_id`, `user_id`, `room_id`, `services_number`, `services_description`, `services_price`, `Amenities`, `Amenities_prices`, `check_in_date`, `check_out_date`, `status`, `adults`, `children`, `childrenfree`, `reference_number`, `Amenities_totalprice`, `payable_amount`, `paid_amount`, `check_out_status`, `down_payment`, `submitted_date`, `guest_information`) VALUES
+(342, 1, NULL, 2, 'Banana Boat (10 pax)', 3500, NULL, NULL, '2023-12-20', '2023-12-21', 'Approved', NULL, NULL, '0', '0001', '0', '3500', '3500', 'waiting', '3500', '2023-12-19 21:31:08', 'Name: FULL NAME TESTER 4<br>Email: test@gmail.com<br>Contact #: 09178680299<br>Address: #489 Mataranta Courages Building 123'),
+(343, 99999, NULL, 3, 'Aqua Slider (4 pax)', 2000, NULL, NULL, '2023-12-20', '2023-12-21', 'Approved', NULL, NULL, '0', '0001', '0', '2000', '2000', 'waiting', '2000', '2023-12-19 21:31:08', 'Name: FULL NAME TESTER 4<br>Email: test@gmail.com<br>Contact #: 09178680299<br>Address: #489 Mataranta Courages Building 123'),
+(344, 99999, NULL, 4, 'Speed Boat (6 pax)', 2500, NULL, NULL, '2023-12-20', '2023-12-21', 'Approved', NULL, NULL, '0', '0001', '0', '2500', '2500', 'waiting', '2500', '2023-12-19 21:31:09', 'Name: FULL NAME TESTER 4<br>Email: test@gmail.com<br>Contact #: 09178680299<br>Address: #489 Mataranta Courages Building 123'),
+(345, 1, 12, NULL, NULL, NULL, 'Pillows [1] | Comforter [1] | Condom [1] | Amenities [1] | ', '100 | 200 | 300 | 2000 | 2000 | ', '2023-12-20', '2023-12-21', 'Approved', 16, 0, '2', '0001', '2600', '15100', '15100', 'waiting', '15100', '2023-12-19 21:31:09', NULL),
+(346, 1, 14, NULL, NULL, NULL, NULL, NULL, '2023-12-20', '2023-12-21', 'Pending', 1, 2, '3', 'qweqweqw123123', '0', '3000', '3000', 'waiting', '0', '2023-12-19 22:43:27', NULL),
+(347, 1, NULL, 2, 'Banana Boat (10 pax)', 3500, NULL, NULL, NULL, NULL, 'Pending', NULL, NULL, '0', '123123', '0', '3500', '3500', 'waiting', '0', '2023-12-19 22:47:22', NULL),
+(348, 1, NULL, 2, 'Banana Boat (10 pax)', 3500, NULL, NULL, NULL, NULL, 'Pending', NULL, NULL, '0', '4442323', '0', '3500', '3500', 'waiting', '0', '2023-12-19 22:49:48', NULL),
+(349, 1, 16, NULL, NULL, NULL, NULL, NULL, '2023-12-30', '2023-12-31', 'Pending', 1, 2, '0', '33322', '0', '4500', '4500', 'waiting', '0', '2023-12-19 22:50:13', NULL);
 
 -- --------------------------------------------------------
 
@@ -398,20 +432,22 @@ CREATE TABLE `users` (
   `email` varchar(50) NOT NULL,
   `user_id` int(11) NOT NULL,
   `verification_token` varchar(50) NOT NULL,
-  `verified` int(1) NOT NULL DEFAULT 0
+  `verified` int(1) NOT NULL DEFAULT 0,
+  `reset_otp` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`username`, `password`, `name`, `email`, `user_id`, `verification_token`, `verified`) VALUES
-('user', '$2y$10$31VzJMHZ1yWaGg97RGSto.vOFdTGSsd1RoWVR7iW9K8L/tNMwEN7W', 'user', 'user', 1, '', 1),
-('Japet', '$2y$10$8z5trNoRPJwvCZfH/kjj8u3XwyXrvn8lWxen8ComLYEc19CW4Cvw.', 'Japet Babasa', 'jhapetbabasa@gmail.com', 11, 'ad9026bed8baaa93c2a239c380de5b26', 1),
-('angel', '$2y$10$8UAkuv0MuysLBzzimk7DEeovQoORTiqSfR0lOGC7rNm8qeoolGlqS', 'angel', 'angel@gmail.com', 13, 'b24f069d3d198b37af77a1e8c0fa469e', 0),
-('angel', '$2y$10$bCs.EjbA2uTlHVad32hXfOOGHzkPHV479q0atKky0Gkkzum4hzHX6', 'angel', 'mabricenio01@gmail.com', 14, '3373b2d8ab0a105cb7b54ec95a09bbe6', 1),
-('EARLPUGE', '$2y$10$.EYurY3pkcE4HYZpT/Tmi.Hh2TKBPoWizz2rX80O1Mxp5B/fCz7gu', 'EARL', 'earlcedricguevarra.pvgma@gmail.com', 15, '5a064d8bc30325d55c3834b5855e2392', 1),
-('Savgabiaso', '$2y$10$v5E0Xj.81ttYmnIgM9pKhO7yiaQ3BwiEjR928M8xRhblz5WEwEuHa', 'Saverlyn Grace L. Gabiaso', 'grasyagabay@gmail.com', 18, '80a0cdfa4d4d93ea6ee9107ace79fc5d', 1);
+INSERT INTO `users` (`username`, `password`, `name`, `email`, `user_id`, `verification_token`, `verified`, `reset_otp`) VALUES
+('user', '$2y$10$31VzJMHZ1yWaGg97RGSto.vOFdTGSsd1RoWVR7iW9K8L/tNMwEN7W', 'user', 'user', 1, '', 1, NULL),
+('Japet', '$2y$10$8z5trNoRPJwvCZfH/kjj8u3XwyXrvn8lWxen8ComLYEc19CW4Cvw.', 'Japet Babasa', 'jhapetbabasa@gmail.com', 11, 'ad9026bed8baaa93c2a239c380de5b26', 1, NULL),
+('angel', '$2y$10$8UAkuv0MuysLBzzimk7DEeovQoORTiqSfR0lOGC7rNm8qeoolGlqS', 'angel', 'angel@gmail.com', 13, 'b24f069d3d198b37af77a1e8c0fa469e', 0, NULL),
+('angel', '$2y$10$bCs.EjbA2uTlHVad32hXfOOGHzkPHV479q0atKky0Gkkzum4hzHX6', 'angel', 'mabricenio01@gmail.com', 14, '3373b2d8ab0a105cb7b54ec95a09bbe6', 1, NULL),
+('EARLPUGE', '$2y$10$.EYurY3pkcE4HYZpT/Tmi.Hh2TKBPoWizz2rX80O1Mxp5B/fCz7gu', 'EARL', 'earlcedricguevarra.pvgma@gmail.com', 15, '5a064d8bc30325d55c3834b5855e2392', 1, NULL),
+('Savgabiaso', '$2y$10$v5E0Xj.81ttYmnIgM9pKhO7yiaQ3BwiEjR928M8xRhblz5WEwEuHa', 'Saverlyn Grace L. Gabiaso', 'grasyagabay@gmail.com', 18, '80a0cdfa4d4d93ea6ee9107ace79fc5d', 1, NULL),
+('Admin Cashier', '$2y$10$31VzJMHZ1yWaGg97RGSto.vOFdTGSsd1RoWVR7iW9K8L/tNMwEN7W', 'Admin Cashier', 'admin_cashier@gmail.com', 99999, '', 1, NULL);
 
 --
 -- Indexes for dumped tables
@@ -481,7 +517,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `audit`
 --
 ALTER TABLE `audit`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=155;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=190;
 
 --
 -- AUTO_INCREMENT for table `inquiries`
@@ -499,7 +535,7 @@ ALTER TABLE `promocode`
 -- AUTO_INCREMENT for table `reservations`
 --
 ALTER TABLE `reservations`
-  MODIFY `reservation_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=206;
+  MODIFY `reservation_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=350;
 
 --
 -- AUTO_INCREMENT for table `rooms`
@@ -517,7 +553,7 @@ ALTER TABLE `services`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100000;
 
 --
 -- Constraints for dumped tables
