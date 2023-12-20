@@ -78,6 +78,53 @@ $servicesResult = $conn->query($servicesSQL);
 			text-align: left; 
 			padding: 8px
 		}
+		  /* Form container */
+		  .form-container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      /* Form elements */
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .form-group input[type="date"],
+      .form-group button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      /* Submit button */
+      .form-group button[type="submit"] {
+        background-color: blue;
+        color: #ffffff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .form-group button[type="submit"]:hover {
+        background-color: blue;
+      }
 	</style>
 </head>
 
@@ -233,19 +280,25 @@ $servicesResult = $conn->query($servicesSQL);
                                                             </button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <form action="reschedule_reservation.php" method="post">
-                                                                <input type="hidden" name="reservation_id" value="<?php echo $row['reservation_id']; ?>" />
-                                                                <div class="form-group">
-                                                                    <label for="new_check_in_date">New Check-in Date:</label>
-                                                                    <input type="date" class="form-control" id="new_check_in_date" name="new_check_in_date" required />
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="new_check_out_date">New Check-out Date:</label>
-                                                                    <input type="date" class="form-control" id="new_check_out_date" name="new_check_out_date" required />
-                                                                </div>
-                                                                <button type="submit" class="btn btn-primary">Reschedule</button>
-                                                            </form>
-                                                        </div>
+														<form id="roomSearchForm" action="reschedule_reservation.php" method="POST">
+	<input type="hidden" name="reservation_id" value="<?php echo $row['reservation_id']; ?>" />
+
+    <div class="form-group">
+      <label for="check_in_date">Check-in Date:</label>
+      <input type="date" id="new_check_in_date" name="new_check_in_date" onchange="updateCheckOutMin()" required>
+    </div>
+
+    <div class="form-group">
+      <label for="check_out_date">Check-out Date:</label>
+      <input type="date" id="new_check_out_date" name="new_check_out_date" required>
+    </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Reschedule</button>
+        </div>
+    </form>
+                                                        
+</div>
                                                 
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -253,6 +306,69 @@ $servicesResult = $conn->query($servicesSQL);
                                                     </div>
                                                 </div>
                                                 </div>
+												
+												<script>
+    // Get the current date in the format "YYYY-MM-DD"
+    function getCurrentDate() {
+        const today = new Date();
+        const year = today.getFullYear();
+        let month = today.getMonth() + 1;
+        let day = today.getDate();
+
+        // Add leading zero if needed
+        month = month < 10 ? `0${month}` : month;
+        day = day < 10 ? `0${day}` : day;
+
+        return `${year}-${month}-${day}`;
+    }
+
+    // Set the min attribute of the date input to the current date
+    document.getElementById('new_check_in_date').min = getCurrentDate();
+    document.getElementById('new_check_out_date').min = getCurrentDate();
+
+    // Function to update the min attribute of the check-out date based on the check-in date
+    function updateCheckOutMin() {
+        const checkInDate = document.getElementById('new_check_in_date').value;
+        document.getElementById('new_check_out_date').min = checkInDate;
+    }
+</script>
+
+
+<script>
+    // Function to get the next day's date in the format "YYYY-MM-DD"
+    function getNextDay(dateString) {
+        const currentDate = new Date(dateString);
+        currentDate.setDate(currentDate.getDate() + 1);
+
+        const year = currentDate.getFullYear();
+        let month = currentDate.getMonth() + 1;
+        let day = currentDate.getDate();
+
+        // Add leading zero if needed
+        month = month < 10 ? `0${month}` : month;
+        day = day < 10 ? `0${day}` : day;
+
+        return `${year}-${month}-${day}`;
+    }
+
+    // Function to update the min attribute of the check-out date based on the check-in date
+    function updateCheckOutMin() {
+        const checkInDate = document.getElementById('new_check_in_date').value;
+        const checkOutDateInput = document.getElementById('new_check_out_date');
+
+        // Ensure check-out date is always at least one day after check-in date
+        checkOutDateInput.min = getNextDay(checkInDate);
+
+        // If the check-out date is the same as the check-in date, show an alert
+        if (checkOutDateInput.value === checkInDate) {
+            alert('Cannot check in and check out on the same date.');
+            // You can also reset the check-out date to the next day
+            checkOutDateInput.value = getNextDay(checkInDate);
+        }
+    }
+</script>
+
+
                                                 
                                                 <?php
 								

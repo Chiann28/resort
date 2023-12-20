@@ -1,11 +1,11 @@
 <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+// use PHPMailer\PHPMailer\PHPMailer;
+// use PHPMailer\PHPMailer\Exception;
 
-require '../../assets/php/PHPMailer.php';
-require '../../assets/php/Exception.php';
-require '../../assets/php/SMTP.php';
+// require 'assets/php/PHPMailer.php';
+// require 'assets/php/Exception.php';
+// require 'assets/php/SMTP.php';
 // reschedule_reservation.php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -31,25 +31,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     if ($conn->query($updateSql) === TRUE) {
 
-        $mail = new PHPMailer(true);
+        // $mail = new PHPMailer(true);
 
-        try {
-            $mail->isSMTP();
-            $mail->Host = 'premium121.web-hosting.com'; // Your SMTP host
-            $mail->SMTPAuth = true;
-            $mail->Username = 'sales@kamantiguebeachresort.com'; // Your SMTP username
-            $mail->Password = '~dY4[%pCzA!0'; // Your SMTP password
-            $mail->SMTPSecure = 'ssl';
-            $mail->Port = 465;
+        // try {
+        //     $mail->isSMTP();
+        //     $mail->Host = 'premium121.web-hosting.com'; // Your SMTP host
+        //     $mail->SMTPAuth = true;
+        //     $mail->Username = 'sales@kamantiguebeachresort.com'; // Your SMTP username
+        //     $mail->Password = '~dY4[%pCzA!0'; // Your SMTP password
+        //     $mail->SMTPSecure = 'ssl';
+        //     $mail->Port = 465;
     
-            $mail->setFrom('sales@kamantiguebeachresort.com', 'Kamantigue Beach Resort');
-            $mail->addAddress($email); // User's email address and name
+        //     $mail->setFrom('sales@kamantiguebeachresort.com', 'Kamantigue Beach Resort');
+        //     $mail->addAddress($email); // User's email address and name
     
-            $mail->isHTML(true);
-            $mail->Subject = 'Rescheduled Reservation';
-            $mail->Body = "You have successfully rescheduled your reservation.";
+        //     $mail->isHTML(true);
+        //     $mail->Subject = 'Rescheduled Reservation';
+        //     $mail->Body = "You have successfully rescheduled your reservation.";
     
-            $mail->send();
+        //     $mail->send();
 
 
 
@@ -59,9 +59,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header("Location: cancelled_list.php");
         exit();
 
-        } catch (Exception $e) {
+        // } catch (Exception $e) {
             
-        }
+        // }
     } else {
         // Error handling
         // $error_message = "Error updating reservation: " . $conn->error;
